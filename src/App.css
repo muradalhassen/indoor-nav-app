@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.centered-image {
+  display: block;
+  margin: 2rem auto;
+  width: 100px; /* Adjusted size */
+  height: auto;
+}
+
+.App img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px; /* Adjusted size */
+  height: auto;
+}
